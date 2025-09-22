@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 
-export function Child() {
+export function Child({
+  show
+}) {
   const [age, setAge] = useState(0)
   const [name, setName] = useState("")
 
